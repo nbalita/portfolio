@@ -66,7 +66,7 @@ particlesJS('particles-js', {
 
 // Typed.js Initialization
 const typed = new Typed('.typed', {
-    strings: ["Noel Balita", "an IT Specialist", "a System Admin","a Database Admin","a Network Admin", "a VB.NET Developer",  "a Problem Solver"],
+    strings: ["Noel Balita", "an IT Specialist", "a System Admin","a Database Admin","a Network Admin", "a VB.NET Developer", "a Digital Designer",  "a Problem Solver"],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true
@@ -129,4 +129,5 @@ document.querySelectorAll('.private-btn').forEach(btn => {
         e.preventDefault();
         alert('This project is confidential and cannot be shared publicly. Please contact me for more information.');
     });
+
 });
