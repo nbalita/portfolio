@@ -1,10 +1,13 @@
 {
+  "homepage": "https://nbalita.github.io/portfolio/",
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite"
   },
   "dependencies": {

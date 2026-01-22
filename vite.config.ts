@@ -1,3 +1,4 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -13,4 +14,8 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  base: '/portfolio/', // Important for GitHub Pages
+  build: {
+    outDir: 'build', // Add this line to output to 'build' folder
+  }
 })
