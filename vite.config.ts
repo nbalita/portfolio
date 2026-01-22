@@ -3,7 +3,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vitejs.dev/config/
+// Replace 'portfolio' with your exact GitHub repository name
+const repoName = 'portfolio'
+
 export default defineConfig({
   plugins: [
     react(),
@@ -14,8 +16,8 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  base: '/portfolio/', // Important for GitHub Pages
+  base: `/portfolio/`, // Important for GitHub Pages
   build: {
-    outDir: 'build', // Add this line to output to 'build' folder
-  }
+    outDir: 'build', // Ensure this matches your deploy command
+  },
 })
