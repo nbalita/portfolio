@@ -117,8 +117,8 @@ export const portfolioData = {
       description: [
         "Maintained and secured IT infrastructure by minimizing network interruptions, configuring devices, and enhancing security and connectivity.",
         "Supported business operations through troubleshooting, system maintenance, email and account management, and administration of Active Directory and Office 365.",
-        "Led and managed IT projects, enforced compliance standards, and collaborated with internal teams and clients through implementations and on-site visits.",
-        "Oversaw IT asset management, user account setup, and helpdesk support while providing leadership and guidance to IT staff.",
+        "Served as first contact in IT operations, enforced compliance standards, and collaborated with internal teams through implementations and on-site visits.",
+        "Oversaw IT asset management, user account setup, and helpdesk support.",
       ],
     },
     {
@@ -129,7 +129,7 @@ export const portfolioData = {
       description: [
         "Managed network, systems, databases, and security infrastructure to ensure enterprise stability, reliable backups, and compliance with safety standards.",
         "Led technical projects, system upgrades, and integrations while collaborating with stakeholders, consultants, and executive leadership.",
-        "Delivered excellent customer service, efficiently resolved technical issues, and coordinated with external agencies and vendors.",
+        "Delivered excellent user support service, efficiently resolved technical issues, and coordinated with external agencies and vendors.",
         "Oversaw team performance, server room operations, biometrics, CCTV, email systems, and firewall/IP configurations, providing regular updates to executives.",
       ],
     },
@@ -159,7 +159,7 @@ export const portfolioData = {
         "Provided user support by creating employee IDs and managing new user account setups.",
       ],
     },
-    
+   
   ],
   
   //Skills Section
